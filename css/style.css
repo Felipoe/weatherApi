@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: start;     
     height: 100vh;
-    width: 35%;
+    width: 30%;
     transition: height .6s ease;   
 }
 
@@ -150,31 +150,32 @@ button:active {
 .weather-details.active .wind {
     transform: translateY(0%);
     transition: transform 1s ease;
+    transition-delay: 1.2s;
 }
 
 .weather-details .humidity {
-    padding-left: 40px;
+    padding-left: 30px;
     justify-content: flex-start
 }
 
 .weather-details .wind {
-    padding-right: 40px;
+    padding-right: 30px;
     justify-content: flex-end;
 }
 
 .weather-details i {
     font-size: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .weather-details span {
     display: inline-block;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .weather-details p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 
