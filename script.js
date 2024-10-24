@@ -22,7 +22,7 @@ const customIcon = L.icon({
 });
 
 search.addEventListener('click', () => {
-    const APIKey = '8a8c82e05e9e9595b4056d861eaffcb7';
+    const APIKey = 'API_KEY_HERE';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '') return;
